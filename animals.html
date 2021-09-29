@@ -12,6 +12,15 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
+    <style>
+      tr:nth-child(even)
+      {
+        background-color: burlywood;
+      }
+      td:hover{
+        color: rgb(255, 238, 0);
+      }
+    </style>
 </head>
 <body>
 <h1>Animals by Muddasani</h1>
@@ -35,6 +44,21 @@
   <p>The row with animal names breaks first. Because, it is linked to a class with "col-md"
     which is a medium in Grid system in bootstrap. So when the window size is resized to less than
     768 pixles, the line breaks.</p>
+    <br>
+
+    <div class="container">
+      <img src="angelFish.jpg" class="img-fluid" alt="image of Angelfish" height="350" width="350">
+      <img src="deer.jpg" class="img-fluid" alt="image of Deer" height="350" width="350">
+      <img src="sable.jpg" class="img-fluid" alt="image of Sable" height="350" width="350">
+    </div>
+
+    <div class="container">
+      <img src="angelFish.jpg" class="img-thumbnail" alt="image of Angelfish" height="350" width="350">
+      <img src="deer.jpg" class="img-thumbnail" alt="image of Deer" height="350" width="350">
+      <img src="sable.jpg" class="img-thumbnail" alt="image of Sable" height="350" width="350">
+    </div>
+
+
   </div>
 </body>
 </html>
